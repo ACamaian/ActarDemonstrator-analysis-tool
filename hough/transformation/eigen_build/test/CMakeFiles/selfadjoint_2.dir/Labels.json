@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/camaiani/ATS_ne20/hough/transformation/eigen/test/selfadjoint.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "selfadjoint_2"
+	}
+}

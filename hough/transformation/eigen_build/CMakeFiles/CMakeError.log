@@ -1,0 +1,261 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d687/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d687.dir/build.make CMakeFiles/cmTC_7d687.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d687.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wshorten64to32 -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_7d687.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wshorten-64-to-32'
+make[1]: *** [CMakeFiles/cmTC_7d687.dir/build.make:66: CMakeFiles/cmTC_7d687.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7d687/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wenumconversion failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3741/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3741.dir/build.make CMakeFiles/cmTC_f3741.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3741.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wenumconversion -Werror   -Wenum-conversion -o CMakeFiles/cmTC_f3741.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wenum-conversion'; did you mean '-Wno-conversion'?
+make[1]: *** [CMakeFiles/cmTC_f3741.dir/build.make:66: CMakeFiles/cmTC_f3741.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f3741/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_806ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_806ce.dir/build.make CMakeFiles/cmTC_806ce.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_806ce.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wcpp11extensions -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_806ce.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+make[1]: *** [CMakeFiles/cmTC_806ce.dir/build.make:66: CMakeFiles/cmTC_806ce.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_806ce/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba843/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba843.dir/build.make CMakeFiles/cmTC_ba843.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba843.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd981 -Werror   -wd981 -o CMakeFiles/cmTC_ba843.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd981'
+make[1]: *** [CMakeFiles/cmTC_ba843.dir/build.make:66: CMakeFiles/cmTC_ba843.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_ba843/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd44a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd44a.dir/build.make CMakeFiles/cmTC_fd44a.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd44a.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_wd2304 -Werror   -wd2304 -o CMakeFiles/cmTC_fd44a.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-wd2304'
+make[1]: *** [CMakeFiles/cmTC_fd44a.dir/build.make:66: CMakeFiles/cmTC_fd44a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_fd44a/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8931/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8931.dir/build.make CMakeFiles/cmTC_f8931.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8931.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_STRICTANSI -Werror   -strict-ansi -o CMakeFiles/cmTC_f8931.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-strict-ansi'; did you mean '-fstrict-enums'?
+make[1]: *** [CMakeFiles/cmTC_f8931.dir/build.make:66: CMakeFiles/cmTC_f8931.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_f8931/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1f7a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c1f7a.dir/build.make CMakeFiles/cmTC_c1f7a.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c1f7a.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_Qunusedarguments -Werror   -Qunused-arguments -o CMakeFiles/cmTC_c1f7a.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Qunused-arguments'; did you mean '-Wunused-parameter'?
+make[1]: *** [CMakeFiles/cmTC_c1f7a.dir/build.make:66: CMakeFiles/cmTC_c1f7a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c1f7a/fast] Error 2
+
+Source file was:
+int main() { return 0; }
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf108/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf108.dir/build.make CMakeFiles/cmTC_bf108.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_bf108.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_bf108.dir/CheckSymbolExists.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+make[1]: *** [CMakeFiles/cmTC_bf108.dir/build.make:66: CMakeFiles/cmTC_bf108.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+make: *** [Makefile:121: cmTC_bf108/fast] Error 2
+
+File /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a7363/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7363.dir/build.make CMakeFiles/cmTC_a7363.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_a7363.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_a7363.dir/CheckSymbolExists.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+make[1]: *** [CMakeFiles/cmTC_a7363.dir/build.make:66: CMakeFiles/cmTC_a7363.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+make: *** [Makefile:121: cmTC_a7363/fast] Error 2
+
+File /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04201/fast"
+/usr/bin/make -f CMakeFiles/cmTC_04201.dir/build.make CMakeFiles/cmTC_04201.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_04201.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_04201.dir/CheckSymbolExists.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘Q_WS_X11’
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+                   Q_WS_X11
+make[1]: *** [CMakeFiles/cmTC_04201.dir/build.make:66: CMakeFiles/cmTC_04201.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+make: *** [Makefile:121: cmTC_04201/fast] Error 2
+
+File /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_201ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_201ba.dir/build.make CMakeFiles/cmTC_201ba.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_201ba.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_201ba.dir/CheckSymbolExists.c.o   -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_201ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_201ba.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_201ba.dir/CheckSymbolExists.c.o  -o cmTC_201ba 
+/usr/bin/ld: CMakeFiles/cmTC_201ba.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_201ba.dir/build.make:87: cmTC_201ba] Error 1
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+make: *** [Makefile:121: cmTC_201ba/fast] Error 2
+
+File /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e1da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e1da.dir/build.make CMakeFiles/cmTC_0e1da.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_0e1da.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0e1da.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e1da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e1da.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0e1da.dir/CheckFunctionExists.c.o  -o cmTC_0e1da -lpthreads 
+/usr/bin/ld: impossibile trovare -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0e1da.dir/build.make:87: cmTC_0e1da] Error 1
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+make: *** [Makefile:121: cmTC_0e1da/fast] Error 2
+
+

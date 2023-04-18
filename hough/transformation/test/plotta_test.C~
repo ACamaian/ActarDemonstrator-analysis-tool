@@ -1,0 +1,35 @@
+
+
+void plotta_test(TString input="../test_data.dat"){
+
+  ifstream in(input);
+
+  TGraph2D *gr[10];
+
+  string line;
+  while(getline(in,line)){
+    stringstream ss;
+    if(line[0]='#'){
+      gr[i]=new TGraph2d();
+      char hash;
+      string line;
+      int num=0;
+      ss>> hash >> line >> num;
+      gr[i]=SetName(Form("gr_%d",num));
+    }
+    ss >> xx >> yy >> zz;
+    gr[i]->SetPoint(gr[i]->GetN(),xx,yy,zz);
+  }
+
+  TH3F *frame = new TH3F("frame","frame",100,-100,100,100,-100,100,100,-100,100);
+  frame->Draw("box");
+  for(int i=0; i<3; i++){
+    gr[i]->SetMarkerSyle(20+i);
+    gr[i]->SetMarkerColor(1+i);
+    gr[i]->Draw("psame");
+  }
+  
+}
+
+
+

@@ -1,0 +1,21 @@
+#run_number	vdrift[mm/ns]	sistem	
+144	0.1129		6Li_CF4
+#			11B_CF4
+#192	0.09619		12C_CF4
+#257	0.09698		14N_CF4
+#182	0.09422		160_CF4
+#262	0.09592		27Al_CF4
+#284	0.09618		50Ti_CF4
+#147	0.04513		6Li_isobutano
+#			11B_isobutano
+#			12C_isobutano
+#246	0.01469		14N_isobutano
+#157	0.02592		16O_isobutano
+#270	0.02512		27Al_isobutano
+#281	0.02558		50Ti_isobutano
+#131	0.04515		6Li_p10
+#217	0.04437		11B_p10
+#			12C_p10
+#253	0.04206		14N_p10
+#172	0.04206		16O_p10	
+#288	0.04468		50Ti_p10

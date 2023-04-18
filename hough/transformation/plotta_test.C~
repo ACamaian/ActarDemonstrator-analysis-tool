@@ -1,0 +1,11 @@
+
+
+void plotta_test(TString input="../test_data.dat"){
+
+  ifstream in()
+
+
+}
+
+
+

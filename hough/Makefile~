@@ -1,0 +1,18 @@
+CC = g++
+CFLAGS = -O3 -Wall
+
+HDIR = /home/camaiani/Analisi/Actar/Hough
+#HOBJ = $(HDIR)vector3d.o $(HDIR)sphere.o $(HDIR)pointcloud.o $(DIR)hough.o
+
+OBJ = cEvent.o cHitxyz.o
+DICT = cEventDict.cxx cHitxyzDict.cxx
+PCM = cEventDict_rdict.pcm cHitxyzDict_rdict.pcm
+
+ARDALIB = -L/home/camaiani/Analisi/Actar/RawData/install/bin/
+DIR = /home/camaiani/Analisi/Actar/LNS20/tools/
+
+hought_transformation.out : hough_transformation.C 
+	$(CC) $(CFLAGS) $^ `root-config --cflags --glibs` -lTreePlayer -o $@  $(DIR) $(OBS) $(ARDALIB)libMFM.so $(ARDALIB)libARDAlib.so
+
+clean:
+	rm *.out *.o$

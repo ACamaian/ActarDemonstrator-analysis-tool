@@ -1,0 +1,1369 @@
+The system is: Linux - 4.19.0-2-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/3.13.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac797/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac797.dir/build.make CMakeFiles/cmTC_ac797.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_ac797.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ac797.dir/testCCompiler.c.o   -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ac797
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac797.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ac797.dir/testCCompiler.c.o  -o cmTC_ac797 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abd49/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abd49.dir/build.make CMakeFiles/cmTC_abd49.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_abd49.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_abd49.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_abd49
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abd49.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_abd49.dir/CMakeCCompilerABI.c.o  -o cmTC_abd49 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.2.0-20' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.2.0 (Debian 8.2.0-20) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_abd49' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKs8cq8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_abd49 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_abd49.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_abd49' '-mtune=generic' '-march=x86-64'
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_abd49/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_abd49.dir/build.make CMakeFiles/cmTC_abd49.dir/build]
+  ignore line: [make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"]
+  ignore line: [Building C object CMakeFiles/cmTC_abd49.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_abd49.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_abd49]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abd49.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_abd49.dir/CMakeCCompilerABI.c.o  -o cmTC_abd49 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.2.0-20' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (Debian 8.2.0-20) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_abd49' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKs8cq8.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_abd49 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_abd49.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccKs8cq8.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_abd49] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_abd49.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c367d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c367d.dir/build.make CMakeFiles/cmTC_c367d.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_c367d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_c367d.dir/feature_tests.c.o   -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c367d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c367d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c367d.dir/feature_tests.c.o  -o cmTC_c367d 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81d08/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81d08.dir/build.make CMakeFiles/cmTC_81d08.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_81d08.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_81d08.dir/feature_tests.c.o   -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_81d08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81d08.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_81d08.dir/feature_tests.c.o  -o cmTC_81d08 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_42038/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42038.dir/build.make CMakeFiles/cmTC_42038.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_42038.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_42038.dir/feature_tests.c.o   -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_42038
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42038.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_42038.dir/feature_tests.c.o  -o cmTC_42038 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d15e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d15e.dir/build.make CMakeFiles/cmTC_0d15e.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_0d15e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_0d15e.dir/testCXXCompiler.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0d15e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d15e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_0d15e.dir/testCXXCompiler.cxx.o  -o cmTC_0d15e 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc14b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc14b.dir/build.make CMakeFiles/cmTC_fc14b.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_fc14b.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_fc14b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_fc14b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc14b.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_fc14b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fc14b 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.2.0-20' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.2.0 (Debian 8.2.0-20) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fc14b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7MYoxc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_fc14b /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_fc14b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fc14b' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fc14b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fc14b.dir/build.make CMakeFiles/cmTC_fc14b.dir/build]
+  ignore line: [make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_fc14b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_fc14b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_fc14b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc14b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_fc14b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_fc14b ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.2.0-20' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (Debian 8.2.0-20) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fc14b' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7MYoxc.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_fc14b /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_fc14b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7MYoxc.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fc14b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_fc14b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d65b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d65b.dir/build.make CMakeFiles/cmTC_2d65b.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_2d65b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_2d65b.dir/feature_tests.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2d65b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d65b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_2d65b.dir/feature_tests.cxx.o  -o cmTC_2d65b 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ef8b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ef8b.dir/build.make CMakeFiles/cmTC_1ef8b.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_1ef8b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_1ef8b.dir/feature_tests.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1ef8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ef8b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_1ef8b.dir/feature_tests.cxx.o  -o cmTC_1ef8b 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77905/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77905.dir/build.make CMakeFiles/cmTC_77905.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_77905.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_77905.dir/feature_tests.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_77905
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77905.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_77905.dir/feature_tests.cxx.o  -o cmTC_77905 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01a9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01a9a.dir/build.make CMakeFiles/cmTC_01a9a.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_01a9a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_01a9a.dir/feature_tests.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_01a9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01a9a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_01a9a.dir/feature_tests.cxx.o  -o cmTC_01a9a 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1939/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1939.dir/build.make CMakeFiles/cmTC_a1939.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_a1939.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_a1939.dir/feature_tests.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a1939
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1939.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a1939.dir/feature_tests.cxx.o  -o cmTC_a1939 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test EIGEN_COMPILER_SUPPORT_CPP11 succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_676b2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_676b2.dir/build.make CMakeFiles/cmTC_676b2.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_676b2.dir/src.cxx.o
+/usr/bin/c++    -DEIGEN_COMPILER_SUPPORT_CPP11   -std=c++11 -o CMakeFiles/cmTC_676b2.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_676b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_676b2.dir/link.txt --verbose=1
+/usr/bin/c++   -DEIGEN_COMPILER_SUPPORT_CPP11    CMakeFiles/cmTC_676b2.dir/src.cxx.o  -o cmTC_676b2 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0924f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0924f.dir/build.make CMakeFiles/cmTC_0924f.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0924f.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_0924f.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0924f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0924f.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORT_std=cpp03    CMakeFiles/cmTC_0924f.dir/src.cxx.o  -o cmTC_0924f 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7330e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7330e.dir/build.make CMakeFiles/cmTC_7330e.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_7330e.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -Dstandard_math_library_linked_to_automatically   -o CMakeFiles/cmTC_7330e.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7330e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7330e.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -Dstandard_math_library_linked_to_automatically    CMakeFiles/cmTC_7330e.dir/src.cxx.o  -o cmTC_7330e 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+Source file was:
+
+#include<cmath>
+int main(int argc, char **){
+  return int(std::sin(double(argc)) + std::log(double(argc)));
+}
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a2e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a2e1.dir/build.make CMakeFiles/cmTC_9a2e1.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a2e1.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -DCOMPILER_SUPPORT_WERROR   -Werror -o CMakeFiles/cmTC_9a2e1.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9a2e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a2e1.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -DCOMPILER_SUPPORT_WERROR    CMakeFiles/cmTC_9a2e1.dir/src.cxx.o  -o cmTC_9a2e1 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d5de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d5de.dir/build.make CMakeFiles/cmTC_0d5de.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d5de.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -DCOMPILER_SUPPORT_pedantic -Werror   -pedantic -o CMakeFiles/cmTC_0d5de.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0d5de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d5de.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -DCOMPILER_SUPPORT_pedantic -Werror    CMakeFiles/cmTC_0d5de.dir/src.cxx.o  -o cmTC_0d5de 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8df7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8df7c.dir/build.make CMakeFiles/cmTC_8df7c.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8df7c.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -DCOMPILER_SUPPORT_Wall -Werror   -Wall -o CMakeFiles/cmTC_8df7c.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8df7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8df7c.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -DCOMPILER_SUPPORT_Wall -Werror    CMakeFiles/cmTC_8df7c.dir/src.cxx.o  -o cmTC_8df7c 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb129/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb129.dir/build.make CMakeFiles/cmTC_eb129.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb129.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror   -Wextra -o CMakeFiles/cmTC_eb129.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_eb129
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb129.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror    CMakeFiles/cmTC_eb129.dir/src.cxx.o  -o cmTC_eb129 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd130/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd130.dir/build.make CMakeFiles/cmTC_bd130.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bd130.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror   -Wundef -o CMakeFiles/cmTC_bd130.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bd130
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd130.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror    CMakeFiles/cmTC_bd130.dir/src.cxx.o  -o cmTC_bd130 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad979/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad979.dir/build.make CMakeFiles/cmTC_ad979.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad979.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror   -Wcast-align -o CMakeFiles/cmTC_ad979.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ad979
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad979.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror    CMakeFiles/cmTC_ad979.dir/src.cxx.o  -o cmTC_ad979 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46b33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46b33.dir/build.make CMakeFiles/cmTC_46b33.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46b33.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror   -Wchar-subscripts -o CMakeFiles/cmTC_46b33.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46b33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46b33.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror    CMakeFiles/cmTC_46b33.dir/src.cxx.o  -o cmTC_46b33 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_825df/fast"
+/usr/bin/make -f CMakeFiles/cmTC_825df.dir/build.make CMakeFiles/cmTC_825df.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_825df.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror   -Wnon-virtual-dtor -o CMakeFiles/cmTC_825df.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_825df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_825df.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror    CMakeFiles/cmTC_825df.dir/src.cxx.o  -o cmTC_825df 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a960/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3a960.dir/build.make CMakeFiles/cmTC_3a960.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3a960.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror   -Wunused-local-typedefs -o CMakeFiles/cmTC_3a960.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3a960
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a960.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror    CMakeFiles/cmTC_3a960.dir/src.cxx.o  -o cmTC_3a960 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d7ef/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d7ef.dir/build.make CMakeFiles/cmTC_2d7ef.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d7ef.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror   -Wpointer-arith -o CMakeFiles/cmTC_2d7ef.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2d7ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d7ef.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror    CMakeFiles/cmTC_2d7ef.dir/src.cxx.o  -o cmTC_2d7ef 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc8d6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc8d6.dir/build.make CMakeFiles/cmTC_cc8d6.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc8d6.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror   -Wwrite-strings -o CMakeFiles/cmTC_cc8d6.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc8d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc8d6.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror    CMakeFiles/cmTC_cc8d6.dir/src.cxx.o  -o cmTC_cc8d6 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8df78/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8df78.dir/build.make CMakeFiles/cmTC_8df78.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8df78.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror   -Wformat-security -o CMakeFiles/cmTC_8df78.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8df78
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8df78.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror    CMakeFiles/cmTC_8df78.dir/src.cxx.o  -o cmTC_8df78 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_439fa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_439fa.dir/build.make CMakeFiles/cmTC_439fa.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_439fa.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wlogicalop -Werror   -Wlogical-op -o CMakeFiles/cmTC_439fa.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_439fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_439fa.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wlogicalop -Werror    CMakeFiles/cmTC_439fa.dir/src.cxx.o  -o cmTC_439fa 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f870/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f870.dir/build.make CMakeFiles/cmTC_1f870.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f870.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wdoublepromotion -Werror   -Wdouble-promotion -o CMakeFiles/cmTC_1f870.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1f870
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f870.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wdoublepromotion -Werror    CMakeFiles/cmTC_1f870.dir/src.cxx.o  -o cmTC_1f870 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshadow succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ad95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ad95.dir/build.make CMakeFiles/cmTC_9ad95.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ad95.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -DCOMPILER_SUPPORT_Wshadow -Werror   -Wshadow -o CMakeFiles/cmTC_9ad95.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9ad95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ad95.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -DCOMPILER_SUPPORT_Wshadow -Werror    CMakeFiles/cmTC_9ad95.dir/src.cxx.o  -o cmTC_9ad95 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bdeb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bdeb.dir/build.make CMakeFiles/cmTC_1bdeb.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1bdeb.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -DCOMPILER_SUPPORT_Wnopsabi -Werror   -Wno-psabi -o CMakeFiles/cmTC_1bdeb.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1bdeb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bdeb.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -DCOMPILER_SUPPORT_Wnopsabi -Werror    CMakeFiles/cmTC_1bdeb.dir/src.cxx.o  -o cmTC_1bdeb 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03bb8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03bb8.dir/build.make CMakeFiles/cmTC_03bb8.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_03bb8.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror   -Wno-variadic-macros -o CMakeFiles/cmTC_03bb8.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_03bb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03bb8.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror    CMakeFiles/cmTC_03bb8.dir/src.cxx.o  -o cmTC_03bb8 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb261/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb261.dir/build.make CMakeFiles/cmTC_cb261.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cb261.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror   -Wno-long-long -o CMakeFiles/cmTC_cb261.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cb261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb261.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror    CMakeFiles/cmTC_cb261.dir/src.cxx.o  -o cmTC_cb261 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58176/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58176.dir/build.make CMakeFiles/cmTC_58176.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58176.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror   -fno-check-new -o CMakeFiles/cmTC_58176.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_58176
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58176.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror    CMakeFiles/cmTC_58176.dir/src.cxx.o  -o cmTC_58176 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68450/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68450.dir/build.make CMakeFiles/cmTC_68450.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_68450.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror   -fno-common -o CMakeFiles/cmTC_68450.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_68450
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68450.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror    CMakeFiles/cmTC_68450.dir/src.cxx.o  -o cmTC_68450 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0cde7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0cde7.dir/build.make CMakeFiles/cmTC_0cde7.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0cde7.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror   -fstrict-aliasing -o CMakeFiles/cmTC_0cde7.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0cde7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cde7.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror    CMakeFiles/cmTC_0cde7.dir/src.cxx.o  -o cmTC_0cde7 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db213/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db213.dir/build.make CMakeFiles/cmTC_db213.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db213.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -Werror   -ansi -o CMakeFiles/cmTC_db213.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_db213
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db213.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -Werror    CMakeFiles/cmTC_db213.dir/src.cxx.o  -o cmTC_db213 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3552/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3552.dir/build.make CMakeFiles/cmTC_d3552.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3552.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP   -fopenmp -o CMakeFiles/cmTC_d3552.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d3552
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3552.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP    CMakeFiles/cmTC_d3552.dir/src.cxx.o  -o cmTC_d3552 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd0e9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cd0e9.dir/build.make CMakeFiles/cmTC_cd0e9.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_cd0e9.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -I/usr/include/qt4  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1    -o CMakeFiles/cmTC_cd0e9.dir/CheckSymbolExists.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_cd0e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd0e9.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -O1 -g1     CMakeFiles/cmTC_cd0e9.dir/CheckSymbolExists.cxx.o  -o cmTC_cd0e9 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+File /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/gfortran 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Driving: /usr/bin/gfortran -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.2.0-20' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.2.0 (Debian 8.2.0-20) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/cc9BVpp1.f90 -quiet -v -imultiarch x86_64-linux-gnu CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/8/finclude -o /tmp/cc0RjCwu.s
+GNU Fortran (Debian 8.2.0-20) version 8.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/8/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Debian 8.2.0-20) version 8.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o /tmp/ccDRtGPX.o /tmp/cc0RjCwu.s
+GNU assembler version 2.31.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.31.1
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/8/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWlIRbr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. /tmp/ccDRtGPX.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/3.13.4/CompilerIdFortran/a.out"
+
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1816d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1816d.dir/build.make CMakeFiles/cmTC_1816d.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building Fortran object CMakeFiles/cmTC_1816d.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_1816d.dir/testFortranCompiler.f.o
+Linking Fortran executable cmTC_1816d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1816d.dir/link.txt --verbose=1
+/usr/bin/gfortran      CMakeFiles/cmTC_1816d.dir/testFortranCompiler.f.o  -o cmTC_1816d 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b671/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b671.dir/build.make CMakeFiles/cmTC_0b671.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building Fortran object CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/gfortran    -c /usr/share/cmake-3.13/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o
+Linking Fortran executable cmTC_0b671
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b671.dir/link.txt --verbose=1
+/usr/bin/gfortran   -v   CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o  -o cmTC_0b671 
+Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o -o cmTC_0b671 -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 8.2.0-20' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.2.0 (Debian 8.2.0-20) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/8/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b671' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b671' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUCqRk5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0b671 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b671' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_0b671/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_0b671.dir/build.make CMakeFiles/cmTC_0b671.dir/build]
+  ignore line: [make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"]
+  ignore line: [Building Fortran object CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/gfortran    -c /usr/share/cmake-3.13/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Linking Fortran executable cmTC_0b671]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b671.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gfortran   -v   CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o  -o cmTC_0b671 ]
+  ignore line: [Driving: /usr/bin/gfortran -v CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o -o cmTC_0b671 -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 8.2.0-20' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (Debian 8.2.0-20) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/8/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b671' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0b671' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUCqRk5.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_0b671 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUCqRk5.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0b671] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_0b671.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [gfortran;m;gcc_s;gcc;quadmath;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d75b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d75b0.dir/build.make CMakeFiles/cmTC_d75b0.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building Fortran object CMakeFiles/cmTC_d75b0.dir/testFortranCompilerF90.f90.o
+/usr/bin/gfortran    -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_d75b0.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_d75b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d75b0.dir/link.txt --verbose=1
+/usr/bin/gfortran      CMakeFiles/cmTC_d75b0.dir/testFortranCompilerF90.f90.o  -o cmTC_d75b0 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_FASTMATH succeeded with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dae10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dae10.dir/build.make CMakeFiles/cmTC_dae10.dir/build
+make[1]: Entering directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dae10.dir/src.cxx.o
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_FASTMATH   -ffast-math -o CMakeFiles/cmTC_dae10.dir/src.cxx.o -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dae10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dae10.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_FASTMATH    CMakeFiles/cmTC_dae10.dir/src.cxx.o  -o cmTC_dae10 
+make[1]: Leaving directory '/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abe6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abe6b.dir/build.make CMakeFiles/cmTC_abe6b.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_abe6b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_abe6b.dir/CheckIncludeFile.c.o   -c /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_abe6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abe6b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_abe6b.dir/CheckIncludeFile.c.o  -o cmTC_abe6b 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b0e64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0e64.dir/build.make CMakeFiles/cmTC_b0e64.dir/build
+make[1]: ingresso nella directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_b0e64.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b0e64.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b0e64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0e64.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b0e64.dir/CheckFunctionExists.c.o  -o cmTC_b0e64 -lpthread 
+make[1]: uscita dalla directory "/home/camaiani/ATS_ne20/hough/transformation/eigen_build/CMakeFiles/CMakeTmp"
+
+

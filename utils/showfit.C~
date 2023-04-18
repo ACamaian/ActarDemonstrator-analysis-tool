@@ -1,0 +1,113 @@
+//Per C++
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <utility>
+#include <map>
+
+//Per ROOT
+#include <TROOT.h>
+#include <TSystem.h>
+#include <TGClient.h>
+#include <TMath.h>
+#include <TCanvas.h>
+#include <TTree.h>
+#include <TFile.h>
+#include <TTreeReader.h>
+#include <TTreeReaderValue.h>
+#include <TTreeReaderArray.h>
+#include <TH2.h>
+#include <TH1.h>
+#include <TH3.h>
+#include <TProfile.h>
+#include <TString.h>
+#include <TSpectrum.h>
+#include <TLine.h>
+#include <TGraph2D.h>
+
+#define vdrift 0.01297 //mm/ns
+#define nsample 170 //campioni
+#define sampling_period 80 //ns, ie 12.5 MHz
+
+using namespace std;
+
+//Defined class
+#include "../src/cHitxyz.h"
+#include "../src/cEvent.h"
+
+TGraph2D *create_graph(vector<double> a, vector<double> b);
+Float_t RadToDeg(){return 180./TMath::Pi();}
+
+void showfit(int nentry=0, TString name="../data/mc_data_hough_3_12_fit.root", int runnum=0){
+
+  TFile *f = new TFile(name);
+  TTree *t = (TTree*)f->Get(Form("PhysicsTree_%d",runnum));
+
+  TH3F *hxyz = new TH3F("hxyz","hxyz",64,0,128,32,0,64,nsample,0,nsample*vdrift*sampling_period);
+  hxyz->SetXTitle("x mm");
+  hxyz->SetYTitle("y mm");
+  hxyz->SetYTitle("z mm");  
+    
+  TTreeReader r(t);
+  TTreeReaderValue<vector<vector<double>>> points(r,"points");
+  TTreeReaderValue<vector<vector<double>>> lines(r,"lines");
+  TTreeReaderArray<Double_t> vertex(r,"vertex");
+  TTreeReaderValue<Double_t> theta(r,"theta_part");
+  TTreeReaderValue<Double_t> phi(r,"phi_part");
+  TTreeReaderValue<Double_t> eres(r,"eres_part");
+  TTreeReaderValue<Int_t> idcode(r,"idcode");
+  
+  r.SetEntry(nentry);
+  
+  for(auto&& pp: *points){ 
+    hxyz->Fill(pp[0],pp[1],pp[2], pp[3]);
+  }
+
+  TCanvas *c0 = new TCanvas("c0","c0");
+  hxyz->Draw("BOX2 Z");
+
+  TGraph2D *g[lines->size()];
+  Int_t nlines=0;
+  for(auto &&ll: *lines){
+    vector<double> aa={ll[0],ll[1],ll[2]};
+    vector<double> bb={ll[3],ll[4],ll[5]};
+    g[nlines] = new TGraph2D();
+    g[nlines] = create_graph(aa,bb);
+    g[nlines]->SetMarkerColor(nlines+1);
+    g[nlines]->Draw("psame");
+    nlines++;
+  }
+  
+  TGraph2D *v = new TGraph2D();
+  v->SetPoint(0,vertex[0],vertex[1],vertex[2]);  
+  v->SetMarkerStyle(20);
+  v->SetMarkerColor(6);
+  v->Draw("psame");
+  
+  cout << "Theta and Phi: " << *theta << " " << *phi << endl;
+  cout << "Eres: " << *eres << endl ;
+  
+  cout << "IDCode: " << *idcode << endl;
+}
+
+
+TGraph2D *create_graph(vector<double> a, vector<double> b){
+
+  TGraph2D *g = new TGraph2D();
+  g->SetMarkerStyle(20);
+  if(a.size()!=3 && b.size()!=3 ) {cout << "NO lines" << endl; return NULL;}
+  for(int i=0; i<100; i++){
+    float pos[3]={0,0,0};
+    for(int k=0; k<3; k++){
+      pos[k]=a[k]+i*b[k];
+    }
+    
+    if(pos[0]<0 || pos[0]>128) continue;
+    if(pos[1]<0 || pos[1]>64) continue;
+    if(pos[2]<0) continue; 
+    
+    g->SetPoint(g->GetN(),pos[0],pos[1],pos[2]);
+  }
+  return g;
+}
